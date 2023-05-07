@@ -1,0 +1,18 @@
+root {
+    --color-one: ##1E1F22;
+    --color-two:#303338;
+    --color-text: white;
+  
+    --font: 'DM Sans', sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: var(--font);
+    color: var(--color-text);
+  }
+
+  a {
+    text-decoration: none;
+  }
